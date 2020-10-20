@@ -1,0 +1,11 @@
+ENTITY HelloWorld IS
+END ENTITY;
+ 
+ARCHITECTURE arch OF HelloWorld IS
+BEGIN
+    PROCESS IS
+    BEGIN
+        REPORT "Hello World!";
+        WAIT;
+    END PROCESS;
+END ARCHITECTURE;
